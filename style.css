@@ -1,0 +1,156 @@
+body {
+	background-color: black;
+}
+body,
+html {
+height: 100%;
+font-family: Verdana,sans-serif;
+font-size: 20px;
+line-height: 1.5;
+background-color: black;
+}
+
+
+.container{
+    background-image: url(images/bgpic.jpg);
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size:90;
+	text-align: center;
+	font-weight: 100;
+	color:white;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	text-align: center;
+}
+h4{
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	text-align: center;
+}
+
+h5{
+	font-family: 'Montserrat', sans-serif;
+	color:gray;
+	text-align: center;
+	font-size: 16px;
+}
+
+h6{
+	font-family: 'Montserrat', sans-serif;
+	color:#40e0d0;
+	text-align: left;
+	font-size: 16px;
+}
+
+.divone, .divtwo {
+	position:relative;
+	text-align: center;
+	top:10px;
+}
+
+/*
+.form-style-9 ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+*/
+.form-style-9 ul li{
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form-style-9 ul li  .field-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}.form-style-9 ul li  .field-style:focus{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-style-9 ul li .field-split{
+	width: 10%;
+}
+.form-style-9 ul li .field-full{
+	width: 50%;
+}
+.form-style-9 ul li input.align-left{
+	float:center;
+}
+.form-style-9 ul li input.align-right{
+	float:center;
+}
+.form-style-9 ul li textarea{
+	width: 50%;
+	height: 100px;
+}
+
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: green;
+	border: 1px solid green;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom,green 5%, green 100%);
+	background-color: green;
+}
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+	overflow-x:auto;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+	overflow-x: auto;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+	overflow-x: auto;
+}
